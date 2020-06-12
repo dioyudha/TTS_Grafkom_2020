@@ -1,0 +1,15 @@
+﻿  main.cpp
+C:\Users\MrPaung\source\repos\TTS_Grafkom_2020\TTS_Grafkom_2020\main.cpp(16,53): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\MrPaung\source\repos\TTS_Grafkom_2020\TTS_Grafkom_2020\main.cpp(16,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\MrPaung\source\repos\TTS_Grafkom_2020\TTS_Grafkom_2020\main.cpp(22,53): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\MrPaung\source\repos\TTS_Grafkom_2020\TTS_Grafkom_2020\main.cpp(22,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\MrPaung\source\repos\TTS_Grafkom_2020\TTS_Grafkom_2020\main.cpp(28,53): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\MrPaung\source\repos\TTS_Grafkom_2020\TTS_Grafkom_2020\main.cpp(28,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\MrPaung\source\repos\TTS_Grafkom_2020\TTS_Grafkom_2020\main.cpp(34,53): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\MrPaung\source\repos\TTS_Grafkom_2020\TTS_Grafkom_2020\main.cpp(34,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating code
+  2 of 6 functions (33.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  TTS_Grafkom_2020.vcxproj -> C:\Users\MrPaung\source\repos\TTS_Grafkom_2020\x64\Release\TTS_Grafkom_2020.exe

@@ -6,58 +6,80 @@ void outline() {
 	glBegin(GL_POLYGON);
 	glColor3ub(246, 193, 32);
 	glVertex2f(0, 0);
-	glVertex2f(0, 1100);
-	glVertex2f(1100, 1100);
-	glVertex2f(1100, 0);
+	glVertex2f(0, 840);
+	glVertex2f(840, 840);
+	glVertex2f(840, 0);
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3ub(255, 0, 0);
-	glVertex2f(50, 50);
-	glVertex2f(50, 1050);
-	glVertex2f(1050, 1050);
-	glVertex2f(1050, 50);
-	glEnd();
-
-	glBegin(GL_LINE_STRIP);
-	glVertex2f(75, 75);
-	glVertex2f(75, 1025);
-	glVertex2f(1025, 1025);
-	glVertex2f(1025, 75);
+	glVertex2f(10, 10);
+	glVertex2f(10, 830);
+	glVertex2f(830, 830);
+	glVertex2f(830, 10);
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3ub(0, 0, 0);
-	glVertex2f(90, 90);
-	glVertex2f(90, 1010);
-	glVertex2f(1010, 1010);
-	glVertex2f(1010, 90);
+	glVertex2f(20, 20);
+	glVertex2f(20, 820);
+	glVertex2f(820, 820);
+	glVertex2f(820, 20);
 	glEnd();
 
 	glFlush();
 }
 void pertama() {
+	//kotak putih
+	glBegin(GL_POLYGON);
+	glColor3ub(255, 255, 255);
+	glVertex2f(180, 20);
+	glVertex2f(180, 180);
+	glVertex2f(340, 180);
+	glVertex2f(340, 20);
+	glEnd();
+	//plus
+	glBegin(GL_POLYGON);
+	glColor3ub(0, 0, 0);
+	glVertex2f(240, 30);
+	glVertex2f(240, 170);
+	glVertex2f(280, 170);
+	glVertex2f(280, 30);
+	glEnd();
+	glBegin(GL_POLYGON);
+	glVertex2f(190, 80);
+	glVertex2f(190, 120);
+	glVertex2f(330, 120);
+	glVertex2f(330, 80);
+	glEnd();
+	//kotak tengah
+	glBegin(GL_POLYGON);
+	glColor3ub(246, 193, 32);
+	glVertex2f(260, 70);
+	glVertex2f(230, 100);
+	glVertex2f(260, 130);
+	glVertex2f(290, 100);
+	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3ub(192, 192, 192);
-	glVertex2f(390, 110);
-	glVertex2f(390, 230);
-	glVertex2f(560, 230);
-	glVertex2f(560, 110);
+	glColor3ub(255, 0, 0);
+	glVertex2f(260, 80);
+	glVertex2f(240, 100);
+	glVertex2f(260, 120);
+	glVertex2f(280, 100);
+	glEnd();
+	glBegin(GL_LINE_LOOP);
+	glColor3ub(0, 0, 0);
+	glVertex2f(260, 80);
+	glVertex2f(240, 100);
+	glVertex2f(260, 120);
+	glVertex2f(280, 100);
 	glEnd();
 
 	glFlush();
 }
 void kedua() {
 
-	glBegin(GL_TRIANGLES);
-	glColor3ub(128, 128, 128);
-	glVertex2f(50, 340);
-	glVertex2f(30, 360);
-	glVertex2f(70, 360);
-	glEnd();
-
-	glFlush();
 }
 
 void render() {
@@ -66,7 +88,7 @@ void render() {
 
 	outline();
 	pertama();
-	kedua();
+
 
 }
 int main(int argc, char** argv) {
@@ -76,7 +98,7 @@ int main(int argc, char** argv) {
 	glutInitWindowSize(800, 800);
 	glutCreateWindow("Dio Yudha Perdana 672018165");
 	glutDisplayFunc(render);
-	gluOrtho2D(0, 1100,1100, 0);
+	gluOrtho2D(0, 840,840, 0);
 	glutMainLoop();
 
 	return 0;

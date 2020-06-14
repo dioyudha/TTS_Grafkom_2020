@@ -317,6 +317,10 @@ void kotaktengah() {
 
 	glFlush();
 }
+void kotakdalamhitam() {
+
+	glFlush();
+}
 
 void render() {
 	glClearColor(0, 0, 0, 1);

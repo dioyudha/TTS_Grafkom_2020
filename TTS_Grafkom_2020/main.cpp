@@ -467,7 +467,6 @@ void kotaktengah2() {
 	glEnd();
 	glFlush();
 }
-
 void garisdlmkotak() {
 	
 	glBegin(GL_LINE_LOOP);
@@ -477,8 +476,181 @@ void garisdlmkotak() {
 	glVertex2f(260, 120);
 	glVertex2f(280, 100);
 	glEnd(); 
+	//2
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(580, 80);
+	glVertex2f(560, 100);
+	glVertex2f(580, 120);
+	glVertex2f(600, 100);
+	glEnd();
+	//3
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(100, 240);
+	glVertex2f(80, 260);
+	glVertex2f(100, 280);
+	glVertex2f(120, 260);
+	glEnd();
+	//4
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(420, 240);
+	glVertex2f(400, 260);
+	glVertex2f(420, 280);
+	glVertex2f(440, 260);
+	glEnd();
+	//5
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(740, 240);
+	glVertex2f(720, 260);
+	glVertex2f(740, 280);
+	glVertex2f(760, 260);
+	glEnd();
+	//6
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(260, 400);
+	glVertex2f(240, 420);
+	glVertex2f(260, 440);
+	glVertex2f(280, 420);
+	glEnd();
+	//7
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(580, 400);
+	glVertex2f(560, 420);
+	glVertex2f(580, 440);
+	glVertex2f(600, 420);
+	glEnd();
+	//8
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(100, 560);
+	glVertex2f(80, 580);
+	glVertex2f(100, 600);
+	glVertex2f(120, 580);
+	glEnd();
+	//9
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(420, 560);
+	glVertex2f(400, 580);
+	glVertex2f(420, 600);
+	glVertex2f(440, 580);
+	glEnd();
+	//10
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(740, 560);
+	glVertex2f(720, 580);
+	glVertex2f(740, 600);
+	glVertex2f(760, 580);
+	glEnd();
+	//11
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(260, 720);
+	glVertex2f(240, 740);
+	glVertex2f(260, 760);
+	glVertex2f(280, 740);
+	glEnd();
+	//12
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(580, 720);
+	glVertex2f(560, 740);
+	glVertex2f(580, 760);
+	glVertex2f(600, 740);
+	glEnd();
 
 		glFlush();
+}
+void garisdlmhitam() {
+	//1
+	glBegin(GL_POLYGON);
+	glColor3ub(178, 34, 34);
+	glVertex2f(50, 50);
+	glVertex2f(50, 150);
+	glVertex2f(150, 150);
+	glVertex2f(150, 50);
+	glEnd();
+	//2
+	glBegin(GL_POLYGON);
+	glVertex2f(370, 50);
+	glVertex2f(370, 150);
+	glVertex2f(470, 150);
+	glVertex2f(470, 50);
+	glEnd();
+	//3
+	glBegin(GL_POLYGON);
+	glVertex2f(690, 50);
+	glVertex2f(690, 150);
+	glVertex2f(790, 150);
+	glVertex2f(790, 50);
+	glEnd();
+	//4
+	glBegin(GL_POLYGON);
+	glVertex2f(210, 210);
+	glVertex2f(210, 310);
+	glVertex2f(310, 310);
+	glVertex2f(310, 210);
+	glEnd();
+	//5
+	glBegin(GL_POLYGON);
+	glVertex2f(530, 210);
+	glVertex2f(530, 310);
+	glVertex2f(630, 310);
+	glVertex2f(630, 210);
+	glEnd();
+	//6
+	glBegin(GL_POLYGON);
+	glVertex2f(50, 370);
+	glVertex2f(50, 470);
+	glVertex2f(150, 470);
+	glVertex2f(150, 370);
+	glEnd();
+	//7
+	glBegin(GL_POLYGON);
+	glVertex2f(370, 370);
+	glVertex2f(370, 470);
+	glVertex2f(470, 470);
+	glVertex2f(470, 370);
+	glEnd();
+	//8
+	glBegin(GL_POLYGON);
+	glVertex2f(690, 370);
+	glVertex2f(690, 470);
+	glVertex2f(790, 470);
+	glVertex2f(790, 370);
+	glEnd();
+	//9
+	glBegin(GL_POLYGON);
+	glVertex2f(210, 530);
+	glVertex2f(210, 630);
+	glVertex2f(310, 630);
+	glVertex2f(310, 530);
+	glEnd();
+	//10
+	glBegin(GL_POLYGON);
+	glVertex2f(530, 530);
+	glVertex2f(530, 630);
+	glVertex2f(630, 630);
+	glVertex2f(630, 530);
+	glEnd();
+	//11
+	glBegin(GL_POLYGON);
+	glVertex2f(50, 690);
+	glVertex2f(50, 790);
+	glVertex2f(150, 790);
+	glVertex2f(150, 690);
+	glEnd();
+	//12
+	glBegin(GL_POLYGON);
+	glVertex2f(370, 690);
+	glVertex2f(370, 790);
+	glVertex2f(470, 790);
+	glVertex2f(470, 690);
+	glEnd();
+	//13
+	glBegin(GL_POLYGON);
+	glVertex2f(690, 690);
+	glVertex2f(690, 790);
+	glVertex2f(790, 790);
+	glVertex2f(790, 690);
+	glEnd();
+
+	glFlush();
 }
 
 void render() {
@@ -491,6 +663,7 @@ void render() {
 	kotaktengah();
 	kotaktengah2();
 	garisdlmkotak();
+	garisdlmhitam();
 
 }
 int main(int argc, char** argv) {

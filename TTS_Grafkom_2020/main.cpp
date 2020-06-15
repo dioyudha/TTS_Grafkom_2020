@@ -187,8 +187,8 @@ void plushitam() {
 		glBegin(GL_POLYGON);
 			glVertex2f(670, 240);
 			glVertex2f(670, 280);
-			glVertex2f(800, 280);
-			glVertex2f(800, 240);
+			glVertex2f(810, 280);
+			glVertex2f(810, 240);
 		glEnd();
 
 		//6
@@ -263,10 +263,10 @@ void plushitam() {
 
 		//11
 		glBegin(GL_POLYGON);
-			glVertex2f(230, 670);
-			glVertex2f(230, 810);
-			glVertex2f(270, 810);
-			glVertex2f(270, 670);
+			glVertex2f(240, 670);
+			glVertex2f(240, 810);
+			glVertex2f(280, 810);
+			glVertex2f(280, 670);
 		glEnd();
 		glBegin(GL_POLYGON);
 			glVertex2f(190, 720);
@@ -291,7 +291,7 @@ void plushitam() {
 	glFlush();
 }
 void kotaktengah() {
-	//kotak tengah
+	//1
 	glBegin(GL_POLYGON);
 	glColor3ub(246, 193, 32);
 	glVertex2f(260, 70);
@@ -299,27 +299,186 @@ void kotaktengah() {
 	glVertex2f(260, 130);
 	glVertex2f(290, 100);
 	glEnd();
-
+	//2
 	glBegin(GL_POLYGON);
-	glColor3ub(255, 0, 0);
+	glVertex2f(580, 70);
+	glVertex2f(550, 100);
+	glVertex2f(580, 130);
+	glVertex2f(610, 100);
+	glEnd();
+	//3
+	glBegin(GL_POLYGON);
+	glVertex2f(100, 230);
+	glVertex2f(70, 260);
+	glVertex2f(100, 290);
+	glVertex2f(130, 260);
+	glEnd();
+	//4
+	glBegin(GL_POLYGON);
+	glVertex2f(420, 230);
+	glVertex2f(390, 260);
+	glVertex2f(420, 290);
+	glVertex2f(450, 260);
+	glEnd();
+	//5
+	glBegin(GL_POLYGON);
+	glVertex2f(740, 230);
+	glVertex2f(710, 260);
+	glVertex2f(740, 290);
+	glVertex2f(770, 260);
+	glEnd();
+	//6
+	glBegin(GL_POLYGON);
+	glVertex2f(260, 390);
+	glVertex2f(230, 420);
+	glVertex2f(260, 450);
+	glVertex2f(290, 420);
+	glEnd();
+	//7
+	glBegin(GL_POLYGON);
+	glVertex2f(580, 390);
+	glVertex2f(550, 420);
+	glVertex2f(580, 450);
+	glVertex2f(610, 420);
+	glEnd();
+	//8
+	glBegin(GL_POLYGON);
+	glVertex2f(100, 550);
+	glVertex2f(70, 580);
+	glVertex2f(100, 610);
+	glVertex2f(130, 580);
+	glEnd();
+	//9
+	glBegin(GL_POLYGON);
+	glVertex2f(420, 550);
+	glVertex2f(390, 580);
+	glVertex2f(420, 610);
+	glVertex2f(450, 580);
+	glEnd();
+	//10
+	glBegin(GL_POLYGON);
+	glVertex2f(740, 550);
+	glVertex2f(710, 580);
+	glVertex2f(740, 610);
+	glVertex2f(770, 580);
+	glEnd();
+	//11
+	glBegin(GL_POLYGON);
+	glVertex2f(260, 710);
+	glVertex2f(230, 740);
+	glVertex2f(260, 770);
+	glVertex2f(290, 740);
+	glEnd();
+	//12
+	glBegin(GL_POLYGON);
+	glVertex2f(580, 710);
+	glVertex2f(550, 740);
+	glVertex2f(580, 770);
+	glVertex2f(610, 740);
+	glEnd();
+
+	glFlush();
+}
+void kotaktengah2() {
+	//1
+	glBegin(GL_POLYGON);
+	glColor3ub(178, 34, 34);
 	glVertex2f(260, 80);
 	glVertex2f(240, 100);
 	glVertex2f(260, 120);
 	glVertex2f(280, 100);
 	glEnd();
+	//2
+	glBegin(GL_POLYGON);
+	glVertex2f(580, 80);
+	glVertex2f(560, 100);
+	glVertex2f(580, 120);
+	glVertex2f(600, 100);
+	glEnd();
+	//3
+	glBegin(GL_POLYGON);
+	glVertex2f(100, 240);
+	glVertex2f(80, 260);
+	glVertex2f(100, 280);
+	glVertex2f(120, 260);
+	glEnd();
+	//4
+	glBegin(GL_POLYGON);
+	glVertex2f(420, 240);
+	glVertex2f(400, 260);
+	glVertex2f(420, 280);
+	glVertex2f(440, 260);
+	glEnd();
+	//5
+	glBegin(GL_POLYGON);
+	glVertex2f(740, 240);
+	glVertex2f(720, 260);
+	glVertex2f(740, 280);
+	glVertex2f(760, 260);
+	glEnd();
+	//6
+	glBegin(GL_POLYGON);
+	glVertex2f(260, 400);
+	glVertex2f(240, 420);
+	glVertex2f(260, 440);
+	glVertex2f(280, 420);
+	glEnd();
+	//7
+	glBegin(GL_POLYGON);
+	glVertex2f(580, 400);
+	glVertex2f(560, 420);
+	glVertex2f(580, 440);
+	glVertex2f(600, 420);
+	glEnd();
+	//8
+	glBegin(GL_POLYGON);
+	glVertex2f(100, 560);
+	glVertex2f(80, 580);
+	glVertex2f(100, 600);
+	glVertex2f(120, 580);
+	glEnd();
+	//9
+	glBegin(GL_POLYGON);
+	glVertex2f(420, 560);
+	glVertex2f(400, 580);
+	glVertex2f(420, 600);
+	glVertex2f(440, 580);
+	glEnd();
+	//10
+	glBegin(GL_POLYGON);
+	glVertex2f(740, 560);
+	glVertex2f(720, 580);
+	glVertex2f(740, 600);
+	glVertex2f(760, 580);
+	glEnd();
+	//11
+	glBegin(GL_POLYGON);
+	glVertex2f(260, 720);
+	glVertex2f(240, 740);
+	glVertex2f(260, 760);
+	glVertex2f(280, 740);
+	glEnd();
+	//12
+	glBegin(GL_POLYGON);
+	glVertex2f(580, 720);
+	glVertex2f(560, 740);
+	glVertex2f(580, 760);
+	glVertex2f(600, 740);
+	glEnd();
+	glFlush();
+}
+
+void garisdlmkotak() {
+	
 	glBegin(GL_LINE_LOOP);
 	glColor3ub(0, 0, 0);
 	glVertex2f(260, 80);
 	glVertex2f(240, 100);
 	glVertex2f(260, 120);
 	glVertex2f(280, 100);
-	glEnd();
+	glEnd(); 
 
-	glFlush();
-}
-void kotakdalamhitam() {
-
-	glFlush();
+		glFlush();
 }
 
 void render() {
@@ -330,6 +489,8 @@ void render() {
 	kotakputih();
 	plushitam();
 	kotaktengah();
+	kotaktengah2();
+	garisdlmkotak();
 
 }
 int main(int argc, char** argv) {
@@ -339,6 +500,7 @@ int main(int argc, char** argv) {
 	glutInitWindowSize(800, 800);
 	glutCreateWindow("Dio Yudha Perdana 672018165");
 	glutDisplayFunc(render);
+	glLineWidth(3);
 	gluOrtho2D(0, 840,840, 0);
 	glutMainLoop();
 
